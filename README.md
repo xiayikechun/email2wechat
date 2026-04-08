@@ -23,7 +23,7 @@ IMAP_SERVER=[imap.qiye.aliyun.com](http://imap.qiye.aliyun.com)
 
 FOLDER_NAME=收件箱
 
-```Plain Text
+```
 
 
 ### 腾讯企业邮箱
@@ -33,7 +33,7 @@ IMAP_SERVER=[imap.exmail.qq.com](http://imap.exmail.qq.com)
 
 FOLDER_NAME=INBOX
 
-```Plain Text
+```
 
 
 ### QQ 个人邮箱
@@ -43,7 +43,7 @@ IMAP_SERVER=[imap.qq.com](http://imap.qq.com)
 
 FOLDER_NAME=INBOX
 
-```Plain Text
+```
 
 
 ### 163邮箱
@@ -53,7 +53,7 @@ IMAP_SERVER=[imap.163.com](http://imap.163.com)
 
 FOLDER_NAME=INBOX
 
-```Plain Text
+```
 
 
 ### Outlook
@@ -63,7 +63,7 @@ IMAP_SERVER=[imap-mail.outlook.com](http://imap-mail.outlook.com)
 
 FOLDER_NAME=INBOX
 
-```Plain Text
+```
 
 
 ### Gmail
@@ -73,7 +73,7 @@ IMAP_SERVER=[imap.gmail.com](http://imap.gmail.com)
 
 FOLDER_NAME=INBOX
 
-```Plain Text
+```
 
 
 ## 部署方式（二选一）
@@ -136,4 +136,3 @@ docker pull xiayikechun/email2wechat:latest
 
 - 收不到提醒：文件夹名错误、邮箱不支持 IDLE
 
-```Plain Text
