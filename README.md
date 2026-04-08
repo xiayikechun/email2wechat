@@ -136,3 +136,4 @@ docker pull xiayikechun/email2wechat:latest
 
 - 收不到提醒：文件夹名错误、邮箱不支持 IDLE
 
+
