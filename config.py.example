@@ -1,0 +1,17 @@
+# IMAP 邮箱配置
+IMAP_SERVER       = 'imap.qiye.aliyun.com'
+IMAP_PORT         = 993
+USERNAME          = ''
+PASSWORD          = ''
+FOLDER_NAME       = '收件箱'
+
+# 企业微信
+WECHAT_CORPID     = ''
+WECHAT_CORPSECRET = ''
+WECHAT_AGENTID    = 1000001
+
+# 日志
+LOG_FILE          = 'email_webhook.log'
+LOG_LEVEL         = 'INFO'
+LOG_MAX_BYTES     = 10485760
+LOG_BACKUP_COUNT  = 5
