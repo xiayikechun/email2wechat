@@ -1,6 +1,4 @@
 
-```Markdown
-
 # Email2Wechat
 通用 IMAP 邮箱新邮件实时监听，自动转发至企业微信自建应用。
 支持 IMAP IDLE 长连接、异常自动重连、环境变量 / 挂载配置双模式。
