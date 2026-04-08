@@ -135,5 +135,3 @@ docker pull xiayikechun/email2wechat:latest
 - 登录失败：未开 IMAP 或用了登录密码而非授权码
 
 - 收不到提醒：文件夹名错误、邮箱不支持 IDLE
-
-
