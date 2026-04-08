@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build and Push Multi-Arch Image
 
 on:
   push:
@@ -19,9 +19,11 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push
+      - name: Build and push multi-arch image
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
+          # 核心修改：同时构建 AMD64 和 ARM64 架构
+          platforms: linux/amd64,linux/arm64
           tags: xiayikechun/email2wechat:latest
