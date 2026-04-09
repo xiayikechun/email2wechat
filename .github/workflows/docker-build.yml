@@ -24,6 +24,7 @@ jobs:
         with:
           context: .
           push: true
-          # 核心修改：同时构建 AMD64 和 ARM64 架构
           platforms: linux/amd64,linux/arm64
-          tags: xiayikechun/email2wechat:latest
+          tags: |
+            xiayikechun/email2wechat:latest
+            xiayikechun/email2wechat:${{ github.sha }}

@@ -57,7 +57,8 @@ def setup_logging():
     logger.addHandler(console)
 
     try:
-        file_handler = logging.RotatingFileHandler(
+        # 正确使用 logging.handlers.RotatingFileHandler
+        file_handler = logging.handlers.RotatingFileHandler(
             LOG_FILE, maxBytes=LOG_MAX_BYTES, backupCount=LOG_BACKUP_COUNT, encoding='utf-8'
         )
         file_handler.setFormatter(fmt)
